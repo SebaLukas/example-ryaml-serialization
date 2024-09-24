@@ -1,5 +1,13 @@
-# TODO name of this subproject
+# Example rapidyaml serialization json/yaml to/from c++ structs
 
-TODO please describe what this subproject is doing.
+A small example how to serialize and deserialize yaml and json files to/from cpp structs
 
-All documentation and the issue tracking can be found in our main repository here: https://github.com/EVerest/everest
+## Getting started
+
+```
+# Run cmake
+cmake -S . -B build -G Ninja -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+
+# Build
+ninja -C build
+```
